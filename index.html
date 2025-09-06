@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet_final</title>
+    <link rel="stylesheet" href="Projet_final.css">
+</head>
+<body>
+
+    <header class="entete">
+        <div>
+        VERDIEU<span class="emmanuel">Emmanuel</span>
+        </div>
+    <nav class="menu">
+        <a href="#accueil" class="accueil">Accueil</a>
+        <a href="#a-propos">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#projets">Projets</a>
+        <a href="#contacts">Contacts</a>
+    </nav>
+    </header>
+    <main>
+    <section id="accueil">
+        <div class="texte-intro">
+            <p> Je suis <span style="color: rgb(102, 252, 237);">Emmanuel,</span> Développeur en devenir,<br>passionné par le web et le design!<br>
+            </p>
+            <a href="Titre du projet.pdf" download class="btn-projets">voir mes projets</a>
+        </div>
+        <div class="image-accueil">
+            <img src="Image.jpg" alt="Image projet" width="360" style="margin-left: 1000px; margin-top: -160px;">
+        </div>
+    </section>
+
+    <section class="section-presentation" id="a-propos">
+        <div class="presentation-container">
+            <div class="contenu">
+                <h2><span style="color: rgb(102, 252, 237);">À propos</span></h2>
+                <p>
+                Je m'appelle<span class="accent">VERDIEU</span>, 
+                passionné par la <br>création de sites web modernes et interactifs.
+                </p>
+                <p>
+                Je suis actuellement étudiant<span class="accent"> en 
+                développement web</span>,<br>et je cherche à améliorer mes 
+                compétences en JavaScript, HTML et CSS.
+                </p>
+                <p>
+                J'adore transformer mes idées en projet concrets<br>et 
+                expérimenter avec les nouvelles technologies.
+                </p>
+                <a href="Emmanuel_CV.pdf" download class="btn-cv">Télécharger mon CV</a>
+        </div>
+        <div class="photo-profil">
+            <img src="IMG-20220712-WA0010.jpg" alt="Photo de Verdieu">
+            <div class="barre-deco"></div>
+        </div>
+        </div>
+    </section>
+
+    <section class="mes-projets">
+        <h2>Mes Projets</h2>
+        <div class="projets-container">
+            <div class="projet">
+                <p>Un mini-jeu interactif en JavaScript<br>qui utilise des 
+                événements DOM.</p>
+                <P>#html, #css, #js</P>
+                <a href="#" class="btn-projet">Voir</a>
+            </div>
+            <div class="projet">
+                <p>Un mini-jeu interactif en JavaScript<br>qui utilise des 
+                événements DOM.</p>
+                <P>#html, #css, #js</P>
+                <a href="#" class="btn-projet">Voir</a>
+            </div>
+            <div class="projet">
+                <p>Un mini-jeu interactif en JavaScript<br>qui utilise des 
+                événements DOM.</p>
+                <P>#html, #css, #js</P>
+                <a href="#" class="btn-projet">Voir</a>
+            </div>
+    </section>
+
+    <section class="competences" id="competences">
+        <h2>Mes Compétences</h2>
+        <div class="skills-container">
+            <div class="skills-box">
+                <h3>Soft Skills</h3>
+                <div class="skill">
+                    <span>Économiste</span>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                </div>
+        <div class="skill">
+            <span>Communicateur Social</span>
+                <div class="progress-bar"><div class="progress" style="width: 65%;"></div></div>
+        </div>
+        <div class="skill">
+            <span>Technicien en Réseaux</span>
+            <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+        </div>
+        </div>
+
+        <div class="skills-box">
+            <h3>Hard Skills</h3>
+            <div class="skill">
+            <span>HTML</span>
+            <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
+        </div>
+        <div class="skill">
+            <span>CSS</span>
+            <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+        </div>
+        <div class="skill">
+            <span>VS Code</span>
+            <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Vous avez un <span>projet en tête ?</span><br>N'hésitez pas à me <span>contacter</span></h2>
+        <form action="#" method="post" class="contact-form">
+        <div class="form-row">
+        <div class="form-group">
+        <label for="prenom">Votre prénom</label>
+        <input type="text" id="prenom" placeholder="John">
+       </div>
+       </div>
+      <div class="form-group">
+        <label for="nom">Votre nom</label>
+        <input type="text" id="nom" placeholder="Ramoku">
+      </div>
+    </div>
+
+    <div class="form-group full-width">
+      <label for="sujet">Votre sujet</label>
+      <input type="text" id="sujet" placeholder="Développement d’un site vitrine...">
+    </div>
+
+    <div class="form-group full-width">
+      <label for="message">Votre message</label>
+      <textarea id="message" rows="5" placeholder="Écrivez votre message ici !"></textarea>
+    </div>
+
+    <button type="submit" class="btn-submit">Envoyer</button>
+  </form>
+</section>
+  
+<footer class="footer">
+    <div class="footer-container">
+       <p class="left">Designed by <span class="accent">Emmanuel</span> with HTML, CSS & JS</p>
+       <p class="right"> Tous droits réservés - 2025</p>
+    </div>
+</footer>
+          
+<script src="Projet_final.js"></script>  
+    
+</body>
+</html>
